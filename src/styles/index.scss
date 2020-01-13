@@ -1,0 +1,28 @@
+@import "./header.scss";
+@import "./track.scss";
+@import "./departments.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  h4 {
+    margin-bottom: 20px;
+  }
+  a {
+    color: var(--red);
+  }
+}
+
+h3 {
+  margin-top: 25px;
+}
+
+.results {
+  margin-top: 25px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
